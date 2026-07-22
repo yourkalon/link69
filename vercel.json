@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://full-movies-online-13.blogspot.com/p/1.html",
+      "statusCode": 301
+    }
+  ]
+}
