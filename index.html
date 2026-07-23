@@ -1,1 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var links = [
+  "https://t.co/uwEKo8mLgq",
+  "https://t.co/36k6L6oU7R"
+];
 
+var n = +localStorage.rc || 0;
+localStorage.rc = (n + 1) % links.length;
+location.replace(links[n]);
+</script>
+</head>
+<body></body>
+</html>
