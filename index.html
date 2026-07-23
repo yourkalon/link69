@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var links=[
+"https://link1.com",
+"https://link2.com",
+"https://link3.com"
+];
+
+var n=+localStorage.rc||0;
+localStorage.rc=(n+1)%links.length;
+location.replace(links[n]);
+</script>
+</head>
+<body></body>
+</html>
